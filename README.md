@@ -71,7 +71,7 @@ def ask_move(b: Board, mark: str) -> int:
                 print("✗ Number must be between 1 and 9.")
                 continue
             if b[idx] != " ":
-                print("✗ That cell is already taken.")
+                print("✗ That cell is already take.")
                 continue
             return idx
         except ValueError:
