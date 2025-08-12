@@ -68,7 +68,7 @@ def ask_move(b: Board, mark: str) -> int:
             raw = input(f"Player {mark}, enter cell number (1-9): ").strip()
             idx = int(raw) - 1
             if idx not in range(9):
-                print("✗ Number must be between 1 and 9.")
+                print("✗ Number must be between 1 and 9")
                 continue
             if b[idx] != " ":
                 print("✗ That cell is already take.")
