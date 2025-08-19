@@ -155,3 +155,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+def main():
+    print("=*= Tic-Tac-Toe =*=")
+    while True:
+        print("\n1) Two Player Mode")
+        print("2) Play vs AI")
+        print("3) Exit")
+        choice = input("Enter choice (1/2/3): ").strip()
+        if choice == "1":
+            play_two_players()
+        elif choice == "2":
+            play_vs_ai()
+        elif choice == "3":
+            break
+        else:
+            print("✗ Invalid choice.")
+
+if __name__ == "__main__":
+    main()
