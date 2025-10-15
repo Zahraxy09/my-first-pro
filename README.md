@@ -159,6 +159,8 @@ def main():
     print("=*= Tic-Tac-Toe =*=")
     while True:
         print("\n1) Two Player Mode")
+                print("\n1) Two Player Mode")
+
         print("2) Play vs AI")
         print("3) Exit")
         choice = input("Enter choice (1/2/3): ").strip()
