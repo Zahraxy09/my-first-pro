@@ -1,4 +1,4 @@
-from typing import List, Optional, TupleTuple
+from typing import List, Optional, Tuple
 
 Board = List[str]
 
