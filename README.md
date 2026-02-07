@@ -167,6 +167,8 @@ def main():
         if choice == "1":
             play_two_players()
         elif choice == "2":
+                elif choice == "2":
+
             play_vs_ai()
         elif choice == "3":
             break
