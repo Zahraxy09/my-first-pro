@@ -1,5 +1,4 @@
 from typing import List, Optional, Tuple
-from typing import List, Optional, Tuple
 
 Board = List[str]
 
@@ -174,4 +173,5 @@ def main():
         elif choice == "3":
             break
         else:
+            print("✗ Invalid choice.")
             print("✗ Invalid choice.")
